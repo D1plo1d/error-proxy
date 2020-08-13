@@ -1,0 +1,13 @@
+[package]
+name = "error-proxy"
+version = "0.1.0"
+authors = ["d1plo1d"]
+edition = "2018"
+description = "A trait for Error types that cannot implement std::error::Error due to cohesion limitations"
+repository = "https://github.com/d1plo1d/error-proxy"
+license = "MIT OR Apache-2.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+backtrace = "0.3.50"
